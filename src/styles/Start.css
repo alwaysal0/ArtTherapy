@@ -1,0 +1,46 @@
+#main-start-box {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+#art-therapy {
+    width: 100vw;
+}
+#art-therapy-head {
+    animation: animationForArtTherapyHead 0.3s ease-in-out forwards, transitionToRightPart 0.5s 1s ease-in-out forwards;
+    color: #303030;
+    font-size: 100px;
+    font-weight: 350;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+#art-therapy-text {
+    font-size: 25px;
+    line-height: 35px;
+    margin-left: 5vw;
+    opacity: 0;
+    width: 42vw;
+    display: none;
+}
+@keyframes animationForArtTherapyHead {
+    from {
+        transform: translateY(-300px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+}
+@keyframes transitionToRightPart {
+    from {
+        font-size: 100px;
+    }
+    to {
+        font-size: 60px;
+    }
+}
