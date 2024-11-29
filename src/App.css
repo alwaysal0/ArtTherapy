@@ -1,0 +1,10 @@
+#section2 {
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+}
+#proslojka {
+    width: 100vw;
+    height: 7.5vh;
+    background: linear-gradient(to bottom,#bee489, rgba(255, 255, 255, 0) 80%);
+}

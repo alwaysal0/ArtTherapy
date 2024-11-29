@@ -1,0 +1,17 @@
+#description-of-art {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 10vh;
+}
+#main-text-description {
+    width: 60vw;
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.311);
+}
