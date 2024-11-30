@@ -29,6 +29,13 @@
     width: 300px;
     transform: scale(0.2), rotate(0deg);
 }
+#girl {
+    animation: sun .2s ease-in-out forwards 1.5s;
+    z-index: 1;
+    width: 500px;
+    bottom: 0;
+    left: 30%;
+}
 #art-therapy {
     width: 100vw;
 }

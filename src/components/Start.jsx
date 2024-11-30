@@ -1,9 +1,12 @@
 import React from "react";
 import '../styles/Start.css';
-import { useTranslation } from "react-i18next";
-import { switchLanguage } from '../i18Utils';
+
 import i18n from "../i18next";
+import { useTranslation } from "react-i18next";
+//IMG
 import sun from '../assets/sun.svg'
+import flower from '../assets/blue_flower.png';
+import girl from '../assets/girl.png';
 
 function Start() {
     const { t, i18n } = useTranslation();
@@ -13,6 +16,8 @@ function Start() {
             <div id="art-therapy"><p id="art-therapy-head">Art Therapy</p></div>
             <div className="draw" id="grass"></div>
             <img className="draw" id="sun" src={sun} alt="sun" />
+            <img className="draw" id="flower" src={flower} alt="sun" />
+            <img className="draw" id="girl" src={girl} alt="sun" />
         </div>
         </>
     )

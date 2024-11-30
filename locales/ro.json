@@ -1,5 +1,5 @@
 {
     "welcome": "Salut",
-    "main-text":"Nu trebuie să credem că art-terapia este doar o distracție. De fapt, este o adevărată ajutor pentru copii. Când ei creează ceva cu mâinile lor, învață să exprime ceea ce este greu de spus cu cuvintele. Aceasta îi ajută să se înțeleagă mai bine pe ei înșiși și lumea din jur, dezvoltându-le încrederea și învățându-i cum să găsească soluții pentru problemele lor."
+    "main-text":"<span class='line'>Nu trebuie să credem că art-terapia este doar o </span><span class='line'> distracție. De fapt, este o adevărată ajutor pentru copii.</span><span class='line'> Când ei creează ceva cu mâinile lor, învață să exprime</span><span class='line'> ceea ce este greu de spus cu cuvintele. Aceasta îi ajută</span><span class='line'> să se înțeleagă mai bine pe ei înșiși și lumea din jur,</span><span class='line'> dezvoltându-le încrederea și învățându-i cum să</span><span class='line'> găsească soluții pentru problemele lor.</span>"
 
 }
