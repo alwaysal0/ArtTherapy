@@ -36,6 +36,62 @@
     bottom: 0;
     left: 30%;
 }
+.flowers {
+    position: absolute;
+    width: 50px;
+    z-index: 1;
+    opacity: 0;
+}
+#flower1 {
+    animation: flowers 0.1s ease-in-out forwards 1.5s;
+    bottom: 6vh;
+    right: 8vw;
+}
+#flower2 {
+    animation: flowers 0.1s ease-in-out forwards 1.6s;
+    bottom: 9.5vh;
+    left: 10vw;
+}
+#flower3 {
+    animation: flowers 0.1s ease-in-out forwards 1.7s;
+    bottom: 8vh;
+    right: 22vw;
+}
+#flower4 {
+    animation: flowers 0.1s ease-in-out forwards 1.8s;
+    bottom: 5vh;
+    right: 51vw;
+}
+#flower5 {
+    animation: flowers 0.1s ease-in-out forwards 1.9s;
+    bottom: 14vh;
+    right: 15vw;
+}
+#flower6 {
+    animation: flowers 0.1s ease-in-out forwards 1.7s;
+    bottom: 5vh;
+    left: 25vw;
+}
+#flower7 {
+    animation: flowers 0.1s ease-in-out forwards 1.5s;
+    bottom: 15vh;
+    left: 20vw;
+}
+#flower8 {
+    animation: flowers 0.1s ease-in-out forwards 1.6s;
+    bottom: 5vh;
+    right: 33vw;
+}
+#flower9 {
+    animation: flowers 0.1s ease-in-out forwards 1.8s;
+    bottom: 18vh;
+    left: 30vw;
+}
+#flower10 {
+    animation: flowers 0.1s ease-in-out forwards 2s;
+    bottom: 17vh;
+    right: 28vw;
+}
 #art-therapy {
     width: 100vw;
 }
@@ -95,5 +151,15 @@
     }
     100% {
         transform: rotate(360deg);
+    }
+}
+@keyframes flowers {
+    from {
+        opacity: 0;
+        scale: 0.2;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
     }
 }

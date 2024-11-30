@@ -1,8 +1,3 @@
-#section2 {
-    background-color: red;
-    width: 100vw;
-    height: 100vh;
-}
 #proslojka {
     width: 100vw;
     height: 7.5vh;
@@ -10,4 +5,19 @@
 }
 #description-box {
     position: relative;
+}
+#proslojka1 {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 5vh;
+    background: linear-gradient(to bottom,#b0e5ff, rgb(255, 255, 255) 80%);
+}
+#imageBoxes-box {
+    position: relative;
+}
+#test {
+    width: 100vw;
+    height: 100vh;
+    background: blue;
 }

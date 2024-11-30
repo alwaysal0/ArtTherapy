@@ -40,25 +40,29 @@
 }
 #paints {
     position: absolute;
-    right: 50px;
+    right: 10px;
     bottom: 50px;
-    width: 300px;
+    width: 400px;
     opacity: 0;
-    transition: .7s ease-in-out;
+    scale: 0.1;
+    transition: .2s ease-in-out;
 }
 #paints.in-view {
     opacity: 1;
+    scale: 1;
 }
 #pencil {
     position: absolute;
-    width: 500px;
+    width: 450px;
     left: -5vw;
-    bottom: 0;
+    bottom: 30px;
     opacity: 0;
-    transition: .7s ease-in-out;
+    scale: 0.1;
+    transition: .2s ease-in-out;
 }
 #pencil.in-view {
     opacity: 1;
+    scale: 1;
 }
 @keyframes flyingRocket {
     0% {
