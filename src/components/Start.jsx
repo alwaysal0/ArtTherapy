@@ -15,20 +15,20 @@ function Start() {
     return (
         <>
         <div id="main-start-box">
-            <div id="art-therapy"><p id="art-therapy-head">Art Therapy</p></div>
-            <div className="draw" id="grass"></div>
-            <img className="draw" id="sun" src={sun} alt="sun" />
-            <img className="flowers" id="flower1" src={flowerOrange} alt="sun" />
-            <img className="flowers" id="flower2" src={flowerRoz} alt="sun" />
-            <img className="flowers" id="flower3" src={flowerViolet} alt="sun" />
-            <img className="flowers" id="flower4" src={flowerOrange} alt="sun" />
-            <img className="flowers" id="flower5" src={flowerRoz} alt="sun" />
-            <img className="flowers" id="flower6" src={flowerViolet} alt="sun" />
-            <img className="flowers" id="flower7" src={flowerOrange} alt="sun" />
-            <img className="flowers" id="flower8" src={flowerRoz} alt="sun" />
-            <img className="flowers" id="flower9" src={flowerViolet} alt="sun" />
-            <img className="flowers" id="flower10" src={flowerOrange} alt="sun" />
-            <img className="draw" id="girl" src={girl} alt="sun" />
+            {/* <div id="art-therapy"><p id="art-therapy-head">Art Therapy</p></div> */}
+            <div loading="lazy" className="draw" id="grass"></div>
+            <img loading="lazy" className="draw" id="sun" src={sun} alt="sun" />
+            <img loading="lazy" className="flowers" id="flower1" src={flowerOrange} alt="sun" />
+            <img loading="lazy" className="flowers" id="flower2" src={flowerRoz} alt="sun" />
+            <img loading="lazy" className="flowers" id="flower3" src={flowerViolet} alt="sun" />
+            <img loading="lazy" className="flowers" id="flower4" src={flowerOrange} alt="sun" />
+            <img loading="lazy" className="flowers" id="flower5" src={flowerRoz} alt="sun" />
+            <img loading="lazy" className="flowers" id="flower6" src={flowerViolet} alt="sun" />
+            <img loading="lazy" className="flowers" id="flower7" src={flowerOrange} alt="sun" />
+            <img loading="lazy" className="flowers" id="flower8" src={flowerRoz} alt="sun" />
+            <img loading="lazy" className="flowers" id="flower9" src={flowerViolet} alt="sun" />
+            <img loading="lazy" className="flowers" id="flower10" src={flowerOrange} alt="sun" />
+            <img loading="lazy" className="draw" id="girl" src={girl} alt="sun" />
         </div>
         </>
     )

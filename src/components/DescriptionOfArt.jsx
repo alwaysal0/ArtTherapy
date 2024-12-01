@@ -28,9 +28,9 @@ function DescriptionOfArt() {
         <>
         <div id="description-of-art">
             <div id="main-text-description" ref={setObservedElementRef1} className={isInView1 ? 'in-view' : ''} dangerouslySetInnerHTML={{ __html: t('main-text') }}/>
-            <img id="rocket" ref={setObservedElementRef2} className={isInView2 ? 'in-view' : ''} src={rocket} alt="rocket" />
-            <img id="paints" ref={setObservedElementRef3} className={isInView3 ? 'in-view' : ''} src={paints} alt="paints" />
-            <img id="pencil" ref={setObservedElementRef4} className={isInView4 ? 'in-view' : ''} src={pencil} alt="pencil" />
+            <img loading="lazy" id="rocket" ref={setObservedElementRef2} className={isInView2 ? 'in-view' : ''} src={rocket} alt="rocket" />
+            <img loading="lazy" id="paints" ref={setObservedElementRef3} className={isInView3 ? 'in-view' : ''} src={paints} alt="paints" />
+            <img loading="lazy" id="pencil" ref={setObservedElementRef4} className={isInView4 ? 'in-view' : ''} src={pencil} alt="pencil" />
         </div>
         </>
     )

@@ -1,5 +1,8 @@
 {
+    "contact":"CONTACTE",
+    "about-us":"DESPRE NOI",
     "welcome": "Salut",
-    "main-text":"<span class='line'>Nu trebuie să credem că art-terapia este doar o </span><span class='line'> distracție. De fapt, este o adevărată ajutor pentru copii.</span><span class='line'> Când ei creează ceva cu mâinile lor, învață să exprime</span><span class='line'> ceea ce este greu de spus cu cuvintele. Aceasta îi ajută</span><span class='line'> să se înțeleagă mai bine pe ei înșiși și lumea din jur,</span><span class='line'> dezvoltându-le încrederea și învățându-i cum să</span><span class='line'> găsească soluții pentru problemele lor.</span>"
-
+    "main-text":"<span class='line'>Nu trebuie să credem că art-terapia este doar o </span><span class='line'> distracție. De fapt, este o adevărată ajutor pentru copii.</span><span class='line'> Când ei creează ceva cu mâinile lor, învață să exprime</span><span class='line'> ceea ce este greu de spus cu cuvintele. Aceasta îi ajută</span><span class='line'> să se înțeleagă mai bine pe ei înșiși și lumea din jur,</span><span class='line'> dezvoltându-le încrederea și învățându-i cum să</span><span class='line'> găsească soluții pentru problemele lor.</span>",
+    "art-therapy":"Art Therapy",
+    "about-course":"La sesiunile de art-terapie, copiii vor explora o lume fascinantă a creativității, unde fiecare desen și fiecare lucrare din plastilină îi va ajuta să își descopere lumea interioară și să învețe să își exprime emoțiile. Prin desen, modelaj și alte activități de art-terapie, copiii vor putea să își dezvolte imaginația, să își îmbunătățească coordonarea și încrederea în sine, dar și să se bucure de procesul de a crea ceva unic."
 }

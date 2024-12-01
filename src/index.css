@@ -5,6 +5,9 @@ body {
   font-style: normal;
   margin: 0;
 }
+#root {
+  position: relative;
+}
 @keyframes back {
   from {
     background-color: white;

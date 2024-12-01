@@ -1,0 +1,62 @@
+#header {
+    animation: animationHeader0 .3s ease-in-out .7s forwards;
+    opacity: 0;
+    width: 80vw;
+    height: 9vh;
+    background-color: rgba(255, 255, 255, 0.826);
+    border-radius: 0 0 20px 20px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* для Safari */
+    display: flex;
+    align-items: center;
+    transition: height .3s ease;
+    p {
+        cursor: pointer;
+        position: absolute;
+        transition: .3s ease-in-out;
+    }
+}
+#art-therapy {
+    font-size: 40px;
+    left: 39.5%;
+}
+#about-us {
+    left: 22vw;
+}
+#about-us:hover {
+    font-size: 20px;
+    left: 21vw;
+}
+#contact {
+    right: 23vw;
+}
+#contact:hover {
+    font-size: 20px;
+    right: 22vw;
+}
+.buttons::after {
+    content: '';
+    bottom: 0;
+    left: 50%;
+    width: 0px;
+    border-radius: 15px;
+    height: 2px;
+    position: absolute;
+    background-color: #303030ab;
+    transition: .3s ease-in-out;
+}
+.buttons:hover::after{ 
+    width: 100%;
+    background-color: #b0e5ff;
+    left: 0;
+}
+@keyframes animationHeader0 {
+    from {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

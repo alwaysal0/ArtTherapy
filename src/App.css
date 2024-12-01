@@ -1,3 +1,44 @@
+#header-box {
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 8vh;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    #name {
+        font-size: 100px;
+        color: #303030;
+        position: absolute;
+        animation: animationHeader 0.5s ease-in-out .5s forwards, animationHeader2 0.2s ease-in-out forwards, opacity .1s ease-in-out .8s forwards;
+    }
+}
+@keyframes animationHeader2 {
+    from {
+        transform: translateY(-200px);
+        top: 0;
+    }
+    to {
+        transform: translateY(0);
+        top: -4.5vh;
+    }
+}
+@keyframes animationHeader {
+    from {
+        font-size: 100px;
+    }
+    to {
+        font-size: 40px;
+    }
+}
+@keyframes opacity {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
 #proslojka {
     width: 100vw;
     height: 7.5vh;
@@ -16,8 +57,8 @@
 #imageBoxes-box {
     position: relative;
 }
-#test {
+#about-course-box {
     width: 100vw;
     height: 100vh;
-    background: blue;
+    background-color: rgb(255, 255, 255);
 }
